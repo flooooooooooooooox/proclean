@@ -10,6 +10,7 @@
 - Téléphone : 09 81 94 61 61
 - Email : proclean.caen@hotmail.com (⚠️ hotmail — devrait être contact@proclean-stj.fr)
 - Canal de contact préféré : [à demander]
+- **Origine du contact : recommandation de Josselyn** (connaissance perso) → entrée chaude, passer par lui
 - Tarif convenu : **one shot — montant à définir** (le client paie aujourd'hui ~700 €/mois pour son site actuel → argument commercial n°1)
 
 ## Statut
@@ -172,6 +173,8 @@ Si elles sont à l'arrêt → il paie pour un service qui ne tourne plus, argume
 - Ne pas promettre de gérer du Google Ads si on ne sait pas le faire.
 
 ## Historique des échanges
+- 2026-09-04 — Messages rédigés (`messages.md`) : demande d'intro via Josselyn, texte transférable
+  au gérant, premier contact direct, relance. Règle posée : rien par écrit sur Ferras / Ads / faux avis.
 - 2026-09-04 — **Google Ads : 3 annonces trouvées via la recherche par domaine.** Annonceur =
   « Daniel FERRAS » (personne physique), pas la société → **le compte Ads appartient au prestataire**.
   Corrige la conclusion précédente (« aucune pub »), issue d'une recherche par nom d'entreprise.
