@@ -32,9 +32,19 @@ Ce qu'il devrait vérifier auprès de son agence avant de décider :
 4. Il a un engagement de combien de temps, avec quel préavis ?
 5. Ses demandes de devis, elles viennent plutôt des pubs, de Google Maps ou du bouche-à-oreille ?
 
+Et une dernière question à poser à son agence, celle qui vaut le plus cher :
+
+**« Si je garde uniquement la gestion des publicités, sans le site, ça me coûte combien par mois ? »**
+
+Rien qu'avec cette réponse il saura enfin ce qu'il payait pour le site. Et normalement son
+abonnement doit baisser fortement — il ne resterait que le budget de pub et la gestion.
+Qu'il pose la question comme ça, simplement, sans dire qu'il a quelqu'un d'autre pour le site :
+sinon l'agence se braque, et pour l'instant c'est encore elle qui a le domaine et le compte Google.
+
 Selon ce qu'il répond, il y a deux solutions :
-- soit il **garde ses pubs avec son agence** et je lui fais juste le site, une fois, à lui.
-  C'est le plus sûr, il ne casse rien.
+- soit il **garde ses pubs avec son agence à tarif réduit** et je lui fais juste le site, une fois,
+  à lui. C'est le plus sûr : il ne casse rien, il paie beaucoup moins tous les mois, et il devient
+  enfin propriétaire de son site.
 - soit il coupe tout, mais alors il faut qu'il assume de perdre les pubs.
 
 Dis-lui qu'il n'y a aucune urgence et que je ne cherche pas à lui vendre quelque chose dans son dos.
@@ -63,6 +73,12 @@ s'il faut que je bloque du temps ou pas. Merci !
 ## Notes
 - **Ne pas nommer l'agence ni son dirigeant par écrit** : le message peut être transféré.
 - Ne pas annoncer de prix tant qu'on ne sait pas s'il garde ses pubs. Le prix change selon le scénario.
+- **Le levier le plus fort : lui faire demander « combien si je garde seulement les pubs ? »**
+  La réponse révèle, par soustraction, ce que l'agence lui facturait pour le site.
+  Scénario probable : 700 € → 400-450 €/mois. Soit **~250-300 €/mois économisés (3 000-3 600 €/an)**,
+  et le site one-shot est remboursé en 5 mois environ.
+  ⚠️ Qu'il pose la question **sans dire qu'il a déjà quelqu'un** : l'agence détient encore le
+  domaine et le compte Ads. Ne pas la braquer avant d'avoir récupéré ces accès.
 - Fait vérifiable si on lui demande la preuve : adstransparency.google.com → chercher `proclean-stj.fr`.
 - Le prospect est déjà chaud : l'enjeu n'est plus de convaincre, c'est de **ne pas se retrouver
   responsable d'une baisse de ses appels**. Prévenir avant = crédibilité + protection.
