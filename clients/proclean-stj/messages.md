@@ -11,7 +11,7 @@
 
 Salut Josselyn,
 
-Pour le gars du nettoyage à Caen : oui, je peux lui faire son site en une seule fois, il en devient
+Pour Monsieur Berthelot, l'entreprise de nettoyage à Caen : oui, je peux lui faire son site en une seule fois, il en devient
 propriétaire et il n'a plus d'abonnement à payer derrière. Sur ce point, aucun souci.
 
 Mais il faut que tu lui fasses passer une info importante avant qu'il résilie quoi que ce soit,
@@ -44,7 +44,7 @@ Je préfère qu'il ait toutes les infos.
 
 ## 2. Version courte (si Josselyn préfère résumer à l'oral)
 
-« Le site en une fois, c'est faisable, et il en serait propriétaire.
+« Pour Monsieur Berthelot : le site en une fois, c'est faisable, et il en serait propriétaire.
 Mais attention : son agence lui fait tourner des pubs Google en ce moment, il y a 3 annonces en
 ligne. Ses 700 € par mois, c'est pas que le site, il y a de la pub dedans. S'il coupe tout,
 les pubs s'arrêtent aussi et il peut perdre des demandes de devis.
@@ -55,7 +55,7 @@ son nom, et quel préavis. Après il décide. »
 
 ## 3. Relance à Josselyn (sous ~5 jours)
 
-Salut, tu as pu lui faire passer l'info pour le nettoyage ? Pas de pression, je veux juste savoir
+Salut, tu as pu faire passer l'info à Monsieur Berthelot ? Pas de pression, je veux juste savoir
 s'il faut que je bloque du temps ou pas. Merci !
 
 ---
@@ -66,6 +66,7 @@ s'il faut que je bloque du temps ou pas. Merci !
 - Fait vérifiable si on lui demande la preuve : adstransparency.google.com → chercher `proclean-stj.fr`.
 - Le prospect est déjà chaud : l'enjeu n'est plus de convaincre, c'est de **ne pas se retrouver
   responsable d'une baisse de ses appels**. Prévenir avant = crédibilité + protection.
-- Gérant : Philippe BERTHELOT PELLERIN.
+- Gérant : **Philippe BERTHELOT PELLERIN**. À l'oral et dans les messages relayés : « Monsieur
+  Berthelot ». Sur un devis, un contrat ou un e-mail direct : **nom complet**, Berthelot Pellerin.
 - Le reste des munitions (faux témoignages, « +10 ans », compte Ads au nom d'un tiers) : **oralement
   seulement**, et seulement si on le rencontre.
