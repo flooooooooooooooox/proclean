@@ -4,7 +4,7 @@
 
 ## Identité
 - Entreprise : PROCLEAN STJ (SARL)
-- Interlocuteur (nom) : Philippe Berthelot Pellerin (gérant — à confirmer)
+- Interlocuteur (nom) : **Philippe BERTHELOT PELLERIN**, gérant (confirmé — RCS Caen)
 - Secteur : Nettoyage professionnel (bureaux, cabinets médicaux, commerces, fin de chantier, vitrerie)
 - Ville / zone : Caen (14000) — 29 rue Ampère — zone : tout le Calvados
 - Téléphone : 09 81 94 61 61
@@ -23,6 +23,15 @@
     HTML de l'accueil sauvegardé le 2026-09-04. Les autres pages restent à auditer de la même façon.
   - **Le site actuel est de bonne qualité** → l'argument « votre site est mauvais » ne tient pas.
   - **Google Ads actif** → risque de lui faire perdre ses leads en cassant l'existant.
+
+## Le prestataire actuel
+- **EP DIGITAL X** — Daniel Sammy FERRAS, président. 5 rue Capitaine Boualam, 14000 Caen.
+  Programmation informatique, créée en 2019, 3 salariés, capital 2 500 €.
+- C'est une **vraie agence de développement locale**, pas un freelance à distance. Ne pas la
+  sous-estimer ni la dénigrer : le travail livré est correct.
+- Le compte Google Ads est ouvert **à son nom**. Possiblement par simple commodité et de bonne foi —
+  **ne jamais l'accuser de rétention** (risque de diffamation, et mauvais calcul commercial).
+  Formuler comme un **risque** : « aujourd'hui, si vous partez, vous n'avez aucun droit dessus ».
 
 ## Contexte commercial
 - Le client **paie déjà ~700 €/mois** pour son site actuel (≈ 8 400 €/an).
@@ -54,12 +63,12 @@
 ## Légal (☑ = fourni) — cf. legal.md
 - ☑ Forme juridique : SARL — capital : [à demander]
 - ☑ SIRET : 951 387 406 00014 — SIREN : 951 387 406
-- ☐ RCS ou RM + ville (probable RCS Caen — à confirmer)
+- ☑ RCS Caen 951 387 406 (confirmé)
 - ☐ N° TVA
 - ☑ Adresse du siège : 29 rue Ampère, 14000 Caen
 - ☐ Assurance RC Pro (nettoyage : RC Pro indispensable, décennale non applicable)
 - ☐ Qualifications / certifications (produits écologiques annoncés → label ?)
-- ☑ Directeur de la publication : Philippe Berthelot Pellerin (à confirmer par le client)
+- ☑ Directeur de la publication : Philippe BERTHELOT PELLERIN (gérant, confirmé RCS Caen)
 - ☐ Hébergeur (sera Vercel si on héberge)
 - ☐ Médiateur de la consommation — **a priori non requis** : clientèle B2B (pros). À confirmer :
   s'il fait aussi du particulier, c'est **obligatoire**.
@@ -117,6 +126,11 @@
 - **Centre de transparence publicitaire — recherche par DOMAINE `proclean-stj.fr` → 3 ANNONCES**
   (la recherche par nom d'entreprise ne renvoyait rien : il fallait chercher le domaine).
   ⚠️ **L'annonceur déclaré est « Daniel FERRAS » — une personne physique, PAS la société.**
+  **Identifié (2026-09-04) : Daniel Sammy FERRAS, président d'EP DIGITAL X**, agence web caennaise
+  (5 rue Capitaine Boualam, 14000 Caen — programmation informatique, créée en 2019, 3 salariés,
+  capital 2 500 €). **Aucun mandat chez PROCLEAN STJ** → c'est bien le prestataire, pas le gérant.
+  Le gérant de PROCLEAN STJ est Philippe BERTHELOT PELLERIN (RCS Caen).
+  Campagnes **actives** : les 3 annonces sont toujours diffusées sur le filtre « 7 derniers jours ».
   → **le compte Google Ads appartient au prestataire, pas au client.** S'il part, il perd le compte,
   l'historique d'optimisation, les mots-clés et les données de conversion.
   Google signale aussi : « ce domaine inclut des résultats pour **plusieurs comptes d'annonceur** ».

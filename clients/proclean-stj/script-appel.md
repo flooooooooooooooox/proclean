@@ -16,8 +16,9 @@ présence sur Google et j'ai vu deux choses que vous ne savez peut-être pas. Vo
 ## 2. Le fait qui accroche (le seul argument imparable)
 
 « Vos publicités Google — celles pour le nettoyage de bureaux, le B2B, les vitres — elles sont
-diffusées au nom de **Daniel FERRAS**. Pas au nom de PROCLEAN STJ. C'est public, ça se vérifie sur
-le centre de transparence de Google, je peux vous envoyer le lien.
+diffusées au nom de **Daniel Ferras**, le président d'EP Digital X, rue Capitaine Boualam.
+Pas au nom de PROCLEAN STJ, ni au vôtre. C'est public, ça se vérifie sur le centre de transparence
+de Google, je peux vous envoyer le lien.
 Concrètement, ça veut dire que **le compte publicitaire n'est pas à vous**. Vous le saviez ? »
 
 → **Se taire. Le laisser répondre.** C'est le moment le plus important de l'appel.
@@ -28,6 +29,11 @@ Concrètement, ça veut dire que **le compte publicitaire n'est pas à vous**. V
 du compte — et ça, ça vaut des mois. Google met du temps à apprendre à qui montrer vos annonces.
 Ça ne se transfère pas, ça se rachète en repartant de zéro.
 Est-ce que vous savez si **le site et le nom de domaine** sont à votre nom, eux ? »
+
+> 🛑 **Ne jamais dire ou sous-entendre que Ferras retiendrait le compte volontairement.** Il l'a
+> peut-être ouvert à son nom par simple commodité. Formuler en risque, pas en accusation :
+> « Je ne dis pas qu'il vous le retiendrait. Je dis qu'aujourd'hui vous n'avez aucun droit dessus. »
+> C'est plus fort, et c'est indiscutable.
 
 ## 4. Les 3 questions à poser (écouter, noter, ne pas argumenter)
 
@@ -89,7 +95,9 @@ le nom sur vos annonces. Je vous rappelle vendredi ? »
 ---
 
 ## Points de preuve à avoir sous les yeux pendant l'appel
-- Annonceur des pubs : **Daniel FERRAS** (adstransparency.google.com → chercher `proclean-stj.fr`)
+- Annonceur des pubs : **Daniel FERRAS** (adstransparency.google.com → chercher `proclean-stj.fr`),
+  président d'**EP DIGITAL X** (Caen, 2019, 3 salariés) — aucun mandat chez PROCLEAN STJ
+- Gérant de PROCLEAN STJ : **Philippe BERTHELOT PELLERIN** (RCS Caen 951 387 406)
 - 3 annonces seulement, actives sur les 7 derniers jours, pour 12 pages prestation
 - Pack local « nettoyage Caen » : lui 5,0 (10 avis) · Propre Eclat 4,8 (61) · ESM Propreté 4,7 (19)
 - Ses annonces disent « 200+ clients », son site dit « +50 clients professionnels »
