@@ -10,7 +10,12 @@
 - Téléphone : 09 81 94 61 61
 - Email : proclean.caen@hotmail.com (⚠️ hotmail — devrait être contact@proclean-stj.fr)
 - Canal de contact préféré : [à demander]
-- **Origine du contact : recommandation de Josselyn** (connaissance perso) → entrée chaude, passer par lui
+- **Origine du contact** : Josselyn (**associé**, artisan) → un contact à lui → le prospect.
+  Chaîne à 3 relais : les infos techniques se déforment, tout faire passer par écrit via Josselyn.
+- **Le prospect est déjà intéressé** par un site one-shot : il trouve les 700 €/mois trop chers.
+- ⚠️ **Il ignore que son agence lui fait tourner des Google Ads** → risque majeur : s'il résilie tout,
+  ses campagnes s'arrêtent et ses demandes de devis peuvent chuter. **Le prévenir AVANT** (fait le
+  2026-09-04 via Josselyn) : crédibilité + protection si les leads baissent après la bascule.
 - Tarif convenu : **one shot — montant à définir** (le client paie aujourd'hui ~700 €/mois pour son site actuel → argument commercial n°1)
 
 ## Statut
@@ -173,8 +178,11 @@ Si elles sont à l'arrêt → il paie pour un service qui ne tourne plus, argume
 - Ne pas promettre de gérer du Google Ads si on ne sait pas le faire.
 
 ## Historique des échanges
-- 2026-09-04 — Messages rédigés (`messages.md`) : demande d'intro via Josselyn, texte transférable
-  au gérant, premier contact direct, relance. Règle posée : rien par écrit sur Ferras / Ads / faux avis.
+- 2026-09-04 — Contexte clarifié : Josselyn est l'associé, le prospect est **déjà demandeur** d'un
+  one-shot mais **ignore l'existence de ses Google Ads**. Message d'information rédigé
+  (`messages.md`) et transmis via Josselyn : on l'alerte sur le risque avant toute résiliation, et
+  on lui donne les 5 questions à poser à son agence. Pas de prix annoncé tant que le scénario
+  (garde les pubs / coupe tout) n'est pas tranché.
 - 2026-09-04 — **Google Ads : 3 annonces trouvées via la recherche par domaine.** Annonceur =
   « Daniel FERRAS » (personne physique), pas la société → **le compte Ads appartient au prestataire**.
   Corrige la conclusion précédente (« aucune pub »), issue d'une recherche par nom d'entreprise.

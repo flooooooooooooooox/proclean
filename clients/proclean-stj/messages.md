@@ -1,70 +1,71 @@
-# Messages — PROCLEAN STJ (entrée par recommandation de Josselyn)
+# Messages — PROCLEAN STJ (entrée par Josselyn, associé)
 
-> 🛑 **Rien par écrit** sur : Daniel Ferras / EP Digital X, le compte Google Ads, les faux
-> témoignages, le « +10 ans d'expérience ». Un message se transfère et se capture.
-> Tout ça se dit **oralement, en rendez-vous**. À l'écrit : on demande juste un contact.
-
----
-
-## 1. À Josselyn (WhatsApp / SMS) — le message principal
-
-Salut Josselyn, ça va ?
-
-Je te dérange pour un truc rapide. Tu m'avais parlé de PROCLEAN STJ, l'entreprise de nettoyage
-à Caen. J'ai regardé un peu leur présence sur Google et il y a deux ou trois choses que je pense
-pouvoir améliorer pour eux — notamment côté avis clients, là où ils se font doucement rattraper
-par un concurrent.
-
-Est-ce que tu pourrais demander au gérant s'il accepterait que je le contacte ? Juste 15 minutes,
-par téléphone ou autour d'un café, sans engagement. S'il n'est pas intéressé ça ne me vexe pas
-du tout, je préfère passer par toi plutôt que de l'appeler dans le vide.
-
-Merci !
+> Chaîne : moi → **Josselyn** (associé, artisan) → son contact → **le prospect** (gérant PROCLEAN STJ).
+> Le prospect est **déjà intéressé** par un site en one-shot : il en a assez des 700 €/mois.
+> ⚠️ **Il ne sait pas que son agence lui fait tourner des Google Ads.**
+> 🛑 Ne jamais écrire le nom de Daniel Ferras ni d'EP Digital X. On dit « son agence ».
 
 ---
 
-## 2. Le texte que Josselyn peut transférer tel quel au gérant
+## 1. LE MESSAGE — à envoyer à Josselyn (WhatsApp)
 
-> Bonjour, un ami à moi, [ton prénom], travaille sur la visibilité en ligne des entreprises du coin.
-> Il a regardé votre présence sur Google et il a repéré deux points qui pourraient vous aider,
-> notamment sur les avis clients. Il aimerait vous en parler 15 minutes, sans engagement.
-> Est-ce que je peux lui donner votre numéro ?
+Salut Josselyn,
+
+Pour le gars du nettoyage à Caen : oui, je peux lui faire son site en une seule fois, il en devient
+propriétaire et il n'a plus d'abonnement à payer derrière. Sur ce point, aucun souci.
+
+Mais il faut que tu lui fasses passer une info importante avant qu'il résilie quoi que ce soit,
+parce que je crois qu'il ne l'a pas.
+
+Son agence lui fait tourner **des publicités Google en ce moment**. J'ai vérifié, il y a trois
+annonces en ligne cette semaine. C'est public, ça se voit sur le centre de transparence de Google.
+Donc ses 700 €/mois, ce n'est pas que le site : il y a du budget de pub dedans, et de la gestion.
+
+Le risque : s'il arrête tout d'un coup, **les pubs s'arrêtent avec**. Et si une partie de ses
+demandes de devis vient de là, il va le sentir passer le mois d'après. Je préfère qu'il le sache
+avant, pas après — je ne veux pas qu'il croie que c'est mon site qui lui a fait perdre des clients.
+
+Ce qu'il devrait vérifier auprès de son agence avant de décider :
+1. Sur les 700 €, combien part vraiment en publicité Google, et combien en gestion ?
+2. Est-ce qu'il a accès au compte Google Ads ? Est-ce qu'il est à son nom ?
+3. Le nom de domaine proclean-stj.fr, il est à son nom à lui ?
+4. Il a un engagement de combien de temps, avec quel préavis ?
+5. Ses demandes de devis, elles viennent plutôt des pubs, de Google Maps ou du bouche-à-oreille ?
+
+Selon ce qu'il répond, il y a deux solutions :
+- soit il **garde ses pubs avec son agence** et je lui fais juste le site, une fois, à lui.
+  C'est le plus sûr, il ne casse rien.
+- soit il coupe tout, mais alors il faut qu'il assume de perdre les pubs.
+
+Dis-lui qu'il n'y a aucune urgence et que je ne cherche pas à lui vendre quelque chose dans son dos.
+Je préfère qu'il ait toutes les infos.
 
 ---
 
-## 3. Si le gérant accepte — premier message direct (SMS / WhatsApp)
+## 2. Version courte (si Josselyn préfère résumer à l'oral)
 
-Bonjour Monsieur Berthelot Pellerin,
-
-[ton prénom], c'est Josselyn qui m'a transmis votre contact.
-
-Je travaille sur la visibilité Google des entreprises de Caen. J'ai regardé la vôtre : votre site
-est bien fait et vous êtes premier sur Google Maps sur « nettoyage Caen », c'est une très bonne
-position. Il y a en revanche un point qui la fragilise, et un autre dont je pense que vous n'avez
-pas été informé.
-
-Est-ce que vous auriez 15 minutes cette semaine, par téléphone ou sur place ? Je ne vous vends
-rien au téléphone, je vous montre ce que j'ai vu et vous en faites ce que vous voulez.
-
-Bonne journée,
-[ton prénom] — [ton numéro]
+« Le site en une fois, c'est faisable, et il en serait propriétaire.
+Mais attention : son agence lui fait tourner des pubs Google en ce moment, il y a 3 annonces en
+ligne. Ses 700 € par mois, c'est pas que le site, il y a de la pub dedans. S'il coupe tout,
+les pubs s'arrêtent aussi et il peut perdre des demandes de devis.
+Qu'il demande à son agence : combien part en pub, s'il a accès au compte, si le domaine est à
+son nom, et quel préavis. Après il décide. »
 
 ---
 
-## 4. Relance à Josselyn (si pas de réponse sous ~5 jours)
+## 3. Relance à Josselyn (sous ~5 jours)
 
-Salut, une petite relance pour PROCLEAN STJ — tu as eu l'occasion de lui en toucher un mot ?
-Si c'est compliqué ou s'il n'est pas chaud, dis-le moi franchement, aucun souci. Merci !
+Salut, tu as pu lui faire passer l'info pour le nettoyage ? Pas de pression, je veux juste savoir
+s'il faut que je bloque du temps ou pas. Merci !
 
 ---
 
 ## Notes
-- Adapter l'orthographe du prénom : Josselyn / Jocelyn / Josslyn ?
-- Gérant : **Philippe BERTHELOT PELLERIN** — ne pas écorcher le nom.
-- Objectif du message : **obtenir 15 minutes**, rien d'autre. Ne pas parler prix, ne pas parler
-  refonte de site, ne pas critiquer l'existant.
-- Le « point qui fragilise » = ses 10 avis Google contre 61 chez Propre Eclat. C'est vrai, c'est
-  vérifiable, et ça l'intéresse vraiment.
-- Le « point dont il n'a pas été informé » = le compte Ads. **À ne révéler qu'en direct.**
-- Remercier Josselyn quoi qu'il arrive, et le tenir au courant de la suite. Une recommandation,
-  ça se cultive : c'est probablement ton meilleur canal d'acquisition.
+- **Ne pas nommer l'agence ni son dirigeant par écrit** : le message peut être transféré.
+- Ne pas annoncer de prix tant qu'on ne sait pas s'il garde ses pubs. Le prix change selon le scénario.
+- Fait vérifiable si on lui demande la preuve : adstransparency.google.com → chercher `proclean-stj.fr`.
+- Le prospect est déjà chaud : l'enjeu n'est plus de convaincre, c'est de **ne pas se retrouver
+  responsable d'une baisse de ses appels**. Prévenir avant = crédibilité + protection.
+- Gérant : Philippe BERTHELOT PELLERIN.
+- Le reste des munitions (faux témoignages, « +10 ans », compte Ads au nom d'un tiers) : **oralement
+  seulement**, et seulement si on le rencontre.
