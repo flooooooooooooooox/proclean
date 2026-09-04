@@ -114,9 +114,17 @@
 ### Vérifications terrain (2026-09-04, captures d'écran)
 - **`site:proclean-stj.fr` → INDEXÉ** : accueil, /nettoyage-gss-caen, pages /realisations remontent
   avec titres + meta descriptions propres. L'hypothèse « SPA non indexée » est **écartée**.
-- **Centre de transparence publicitaire Google (France) → AUCUN annonceur, aucun site trouvé**
-  → **pas de campagne Google Ads active**, malgré le tag AW-18152940761 présent dans le site.
-  ⚠️ à reconfirmer en cherchant `proclean-stj.fr` avec validation (la capture montrait l'autocomplétion).
+- **Centre de transparence publicitaire — recherche par DOMAINE `proclean-stj.fr` → 3 ANNONCES**
+  (la recherche par nom d'entreprise ne renvoyait rien : il fallait chercher le domaine).
+  ⚠️ **L'annonceur déclaré est « Daniel FERRAS » — une personne physique, PAS la société.**
+  → **le compte Google Ads appartient au prestataire, pas au client.** S'il part, il perd le compte,
+  l'historique d'optimisation, les mots-clés et les données de conversion.
+  Google signale aussi : « ce domaine inclut des résultats pour **plusieurs comptes d'annonceur** ».
+  Annonces : « Nettoyage Bureaux Caen – Société Nettoyage Tertiaire », « Entreprise Nettoyage B2B –
+  Société Nettoyage Caen », « Nettoyage Vitres Pro Caen ». Elles affichent « 200+ clients » —
+  chiffre contredit par le site lui-même (« +50 clients professionnels »).
+  ⚠️ Filtre utilisé = « Date indifférente » (tout l'historique) → **reste à vérifier si les campagnes
+  tournent actuellement** (filtre 7 / 30 derniers jours).
 - **Pack local « nettoyage Caen » → PROCLEAN STJ est n°1**, devant Propre Eclat et ESM Propreté.
   C'est la position la plus rentable en B2B local. Son acquisition vient très probablement de là.
 - **Avis Google : 5,0 ★ mais seulement 10 avis.** Concurrents : Propre Eclat 4,8 (61 avis),
@@ -125,18 +133,18 @@
 - Reste à vérifier : sitemap.xml, robots.txt, llms.txt, PageSpeed mobile, schema des pages internes,
   positions organiques réelles (l'artisan ne ressort pas en top sur « entreprise nettoyage Caen »).
 
-### 💰 LE POINT DE VENTE (mis à jour après vérifications terrain)
-Le tag Google Ads `AW-18152940761` est présent dans le site, **mais aucune campagne ne tourne**
-(Centre de transparence vide). Les hypothèses justifiant 700 €/mois tombent une par une :
-- ❌ pas de budget publicitaire consommé
-- ❌ pas de construction de site : il est déjà terminé (fait avec Lovable)
-- ❌ pas de sortie d'invisibilité : déjà indexé et déjà n°1 du pack local
-→ Il reste hébergement + « maintenance ». Un site de ce type s'héberge **0 à 20 €/mois**.
-→ **8 400 €/an pour un site fini et figé. C'est une location, pas une prestation.**
+### 💰 LE POINT DE VENTE (corrigé après recherche par domaine)
+Les 700 €/mois financent bien de la publicité Google : 3 annonces existent sur le domaine.
+**Mais le compte d'annonceur est au nom de « Daniel FERRAS », pas de PROCLEAN STJ.**
+→ L'argument n'est plus le prix, c'est la **dépendance totale** : site + domaine + compte Ads +
+historique d'optimisation, rien ne lui appartient. 8 400 €/an pour louer sa propre acquisition.
+Reste à trancher : les campagnes tournent-elles encore (filtre 30 derniers jours) ?
+Si elles sont à l'arrêt → il paie pour un service qui ne tourne plus, argument décisif.
 
 ### 🎯 Angles de vente recommandés (par ordre de force)
-1. **La location vs la propriété** : « Votre site est bien fait. Mais au bout de 3 ans vous aurez payé
-   25 000 € et il ne vous appartiendra toujours pas. » Ne PAS critiquer le site : il en est fier.
+1. **La dépendance** (le plus fort, vérifiable à l'écran devant lui) : le compte Google Ads est au nom
+   de Daniel FERRAS. Site, domaine, compte Ads, historique : rien n'est à lui. 3 ans = 25 000 € versés
+   pour ne rien posséder. Ne PAS critiquer le site : il est bon et il en est fier.
 2. **Les avis Google** : 10 avis contre 61 chez Propre Eclat. Sa position n°1 est en sursis.
    → vrai service à valeur ajoutée, bien plus utile qu'une refonte.
 3. **Conformité** : faux témoignages + « +10 ans d'expérience » (société créée en 2023) = risque
@@ -150,6 +158,10 @@ Le tag Google Ads `AW-18152940761` est présent dans le site, **mais aucune camp
 - Ne pas promettre de gérer du Google Ads si on ne sait pas le faire.
 
 ## Historique des échanges
+- 2026-09-04 — **Google Ads : 3 annonces trouvées via la recherche par domaine.** Annonceur =
+  « Daniel FERRAS » (personne physique), pas la société → **le compte Ads appartient au prestataire**.
+  Corrige la conclusion précédente (« aucune pub »), issue d'une recherche par nom d'entreprise.
+  Angle de vente recentré sur la dépendance/propriété. Reste à vérifier si les campagnes sont actives.
 - 2026-09-04 — **Vérifications terrain** : site bien indexé (site: OK), **aucune Google Ads active**
   (Centre de transparence vide), **n°1 du pack local sur « nettoyage Caen »**, mais seulement 10 avis
   contre 61 pour Propre Eclat. → Les 700 €/mois ne financent ni pub ni développement : c'est une
