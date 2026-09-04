@@ -14,9 +14,9 @@
 
 ## Statut
 - **Étape** (1→9, cf. pipeline.md) : **1 — Prospect** (site existant, bon, chez un prestataire — vente difficile)
-- **Prochaine action** : appeler le gérant. Faire ventiler les 700 €/mois (pub / gestion / site) et
-  vérifier qui possède le domaine et le code. Puis positionner l'offre sur la PROPRIÉTÉ + la CONFORMITÉ,
-  pas sur le prix du site.
+- **Prochaine action** : reconfirmer l'absence de Google Ads, puis appeler le gérant.
+  Angle : « vous louez un site déjà terminé 8 400 €/an » + « vos avis Google décrochent face à
+  Propre Eclat ». Faire dire ce que couvrent les 700 €/mois et qui possède domaine + code.
 - **Date de relance** : [à définir]
 - Blocages :
   - `proclean-stj.fr` inaccessible depuis l'environnement (proxy : CONNECT 403). Audit fait sur le
@@ -111,29 +111,49 @@
 8. Schema perfectible : `sameAs` en string au lieu d'array, pas de `@id`, pas de `logo`, pas de `geo`,
    pas de `priceRange`, pas d'`aggregateRating`.
 
-### À vérifier (impossible depuis cette session — domaine bloqué par le proxy)
-- HTML servi vide (SPA client-side) ? → impact SEO potentiellement lourd
-- `sitemap.xml`, `robots.txt`, `llms.txt` (GEO / référencement IA)
-- Scores PageSpeed mobile
-- Schema sur les pages prestation et réalisations
-- Nombre réel d'avis Google
+### Vérifications terrain (2026-09-04, captures d'écran)
+- **`site:proclean-stj.fr` → INDEXÉ** : accueil, /nettoyage-gss-caen, pages /realisations remontent
+  avec titres + meta descriptions propres. L'hypothèse « SPA non indexée » est **écartée**.
+- **Centre de transparence publicitaire Google (France) → AUCUN annonceur, aucun site trouvé**
+  → **pas de campagne Google Ads active**, malgré le tag AW-18152940761 présent dans le site.
+  ⚠️ à reconfirmer en cherchant `proclean-stj.fr` avec validation (la capture montrait l'autocomplétion).
+- **Pack local « nettoyage Caen » → PROCLEAN STJ est n°1**, devant Propre Eclat et ESM Propreté.
+  C'est la position la plus rentable en B2B local. Son acquisition vient très probablement de là.
+- **Avis Google : 5,0 ★ mais seulement 10 avis.** Concurrents : Propre Eclat 4,8 (61 avis),
+  ESM Propreté 4,7 (19 avis). → **Position n°1 fragile**, le volume d'avis est un critère majeur.
+- Incohérence NAP : fiche Google « ferme à 20:00 » vs site « Lun–Ven 7h–19h ».
+- Reste à vérifier : sitemap.xml, robots.txt, llms.txt, PageSpeed mobile, schema des pages internes,
+  positions organiques réelles (l'artisan ne ressort pas en top sur « entreprise nettoyage Caen »).
 
-### 💰 Découverte critique pour la vente
-Le site contient **`gtag('config', 'AW-18152940761')`** = **tag Google Ads actif**. Le bandeau cookies
-mentionne explicitement « mesurer la performance de nos publicités (Google Ads) ».
-→ **Les 700 €/mois ne paient pas un site : ils paient de la pub Google + sa gestion** (typiquement
-~400 € de budget média + ~300 € de gestion). Le site est probablement inclus quasi gratuitement.
-→ **Ne PAS vendre un remplacement de site en promettant une économie** : s'il résilie, il coupe sa pub
-et perd ses leads. Il t'en tiendra responsable.
+### 💰 LE POINT DE VENTE (mis à jour après vérifications terrain)
+Le tag Google Ads `AW-18152940761` est présent dans le site, **mais aucune campagne ne tourne**
+(Centre de transparence vide). Les hypothèses justifiant 700 €/mois tombent une par une :
+- ❌ pas de budget publicitaire consommé
+- ❌ pas de construction de site : il est déjà terminé (fait avec Lovable)
+- ❌ pas de sortie d'invisibilité : déjà indexé et déjà n°1 du pack local
+→ Il reste hébergement + « maintenance ». Un site de ce type s'héberge **0 à 20 €/mois**.
+→ **8 400 €/an pour un site fini et figé. C'est une location, pas une prestation.**
 
-### 🎯 Angles de vente recommandés
-1. **Propriété** : « Si vous arrêtez demain, vous gardez le site, le code et le domaine ? » — réponse
-   quasi toujours non. C'est là qu'est la vente.
-2. **Conformité** : faux avis + « 10 ans d'expérience » = risque juridique que son prestataire lui a créé.
-3. **Ventilation du prix** : lui faire dire combien va en budget pub / gestion / site.
-4. Ne pas toucher aux Google Ads tant qu'il n'a personne pour les reprendre.
+### 🎯 Angles de vente recommandés (par ordre de force)
+1. **La location vs la propriété** : « Votre site est bien fait. Mais au bout de 3 ans vous aurez payé
+   25 000 € et il ne vous appartiendra toujours pas. » Ne PAS critiquer le site : il en est fier.
+2. **Les avis Google** : 10 avis contre 61 chez Propre Eclat. Sa position n°1 est en sursis.
+   → vrai service à valeur ajoutée, bien plus utile qu'une refonte.
+3. **Conformité** : faux témoignages + « +10 ans d'expérience » (société créée en 2023) = risque
+   DGCCRF que son prestataire actuel lui a créé.
+4. **Détails qui prouvent le manque de suivi** : pas d'og:image, image de schema = preview Lovable,
+   email hotmail, horaires incohérents entre fiche Google et site.
+
+### ⚠️ Prudence avant l'appel
+- Reconfirmer l'absence d'annonces (recherche validée sur `proclean-stj.fr`) avant toute affirmation.
+- Ne jamais dire « votre site est mauvais » : il est bon, et c'est vérifiable.
+- Ne pas promettre de gérer du Google Ads si on ne sait pas le faire.
 
 ## Historique des échanges
+- 2026-09-04 — **Vérifications terrain** : site bien indexé (site: OK), **aucune Google Ads active**
+  (Centre de transparence vide), **n°1 du pack local sur « nettoyage Caen »**, mais seulement 10 avis
+  contre 61 pour Propre Eclat. → Les 700 €/mois ne financent ni pub ni développement : c'est une
+  location d'un site déjà fini. Nouvel angle de vente : propriété + acquisition d'avis Google.
 - 2026-09-04 — **Audit de l'accueil réalisé** (HTML sauvegardé). Site fait avec Lovable, de bonne
   qualité (12 pages prestation×ville, 23 réalisations, consent mode v2, images WebP/alt/lazy).
   Failles exploitables : faux témoignages, « +10 ans » alors que société créée en 2023, chiffres
