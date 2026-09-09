@@ -20,9 +20,8 @@
 
 ## Statut
 - **Étape** (1→9, cf. pipeline.md) : **1 — Prospect / offre proposée (750 €)** — en attente de réponse
-- **Prochaine action** : obtenir par écrit de l'agence pub si les 250 €/mois incluent le budget
-  média, et l'engagement d'ouvrir le compte Ads au nom de PROCLEAN STJ. Puis confirmer l'offre
-  à 750 € au client et lancer `/site-artisan`.
+- **Prochaine action** : réponse du client sur l'offre à 750 €. Dès accord → collecter logo,
+  photos, infos légales, puis lancer `/site-artisan`.
 - **Date de relance** : [à définir]
 - Blocages :
   - `proclean-stj.fr` inaccessible depuis l'environnement (proxy : CONNECT 403). Audit fait sur le
@@ -36,18 +35,12 @@
 - Comparatif : aujourd'hui 8 400 €/an. Nouvelle formule année 1 = 750 + 900 + 3 000 = **4 650 €**
   (≈ 3 750 € économisés), puis ~3 180 €/an (≈ 5 200 €/an économisés).
 
-### 🚨 À vérifier avant toute promesse d'économie
-**Les 250 €/mois incluent-ils le budget publicitaire, ou est-ce l'honoraire seul ?**
-Si c'est l'honoraire seul, il faut ajouter ~300 €/mois de budget média → année 1 ≈ 8 250 €
-contre 8 400 € aujourd'hui : **l'économie tombe à ~150 €** et tout l'argumentaire s'effondre.
-→ Obtenir la réponse par écrit de l'agence pub AVANT de présenter les chiffres au client.
-
-### 🚨 Exigences à imposer à l'agence pub (par écrit)
-- **Le compte Google Ads doit être ouvert au nom de PROCLEAN STJ**, client en accès administrateur.
-  Sinon on reproduit exactement le problème qu'on vend comme solution.
-- Clarifier ce que couvrent les 900 € de mise en place.
-- Décider qui facture : **client en direct avec l'agence pub** (recommandé, aucun risque porté,
-  possible commission d'apporteur) **ou** revente (trésorerie avancée + responsabilité sur la perf).
+### Montage retenu
+- **Le client paie les 250 €/mois de Google Ads directement à l'agence pub.** Pas de revente,
+  pas de trésorerie avancée, pas de responsabilité sur la performance des campagnes.
+- **Nous facturons uniquement le site : 750 € one-shot.**
+- Seul point à exiger de l'agence pub : **le compte Google Ads ouvert au nom de PROCLEAN STJ**,
+  avec le client en accès administrateur (sinon on reproduit le problème qu'on vend comme solution).
 
 ### ⚠️ « À l'identique » — risque de contrefaçon
 Le site actuel appartient à EP DIGITAL X tant qu'il n'est pas cédé : **code, design et textes sont
