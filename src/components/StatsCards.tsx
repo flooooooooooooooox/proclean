@@ -13,16 +13,20 @@ export default function StatsCards() {
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
       {STATS.map((stat, index) => (
         <Reveal key={stat.label} delay={index * 70}>
-          <div className="group h-full rounded-2xl bg-white px-4 py-7 text-center shadow-sm ring-1 ring-navy/8 transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:ring-brand/25">
-            <span className="mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-brand/10 text-brand transition-colors duration-300 group-hover:bg-brand/15">
-              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <div className="group h-full rounded-2xl bg-white px-4 py-7 text-center shadow-sm ring-1 ring-navy/8 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:ring-brand/35">
+            <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-brand/[0.13] text-brand ring-1 ring-brand/20 transition-all duration-300 group-hover:bg-brand/20 group-hover:ring-brand/35">
+              <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.85" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 {stat.icon}
               </svg>
             </span>
-            <p className="mt-4 font-heading text-[28px] font-extrabold leading-none tracking-tight text-navy sm:text-[32px]">
+            <p className="mt-4 font-heading text-[30px] font-extrabold leading-none tracking-tight text-navy sm:text-[34px]">
               {stat.value}
             </p>
-            <p className="mt-2.5 text-[11px] font-medium uppercase leading-snug tracking-wide text-navy/45">
+            <span
+              aria-hidden="true"
+              className="mx-auto mt-3 block h-0.5 w-6 rounded-full bg-brand/60 transition-all duration-300 group-hover:w-10 group-hover:bg-brand"
+            />
+            <p className="mt-3 text-[11px] font-semibold uppercase leading-snug tracking-wide text-navy/45">
               {stat.label}
             </p>
           </div>

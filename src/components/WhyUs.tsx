@@ -15,17 +15,17 @@ export default function WhyUs() {
     <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {benefits.map((benefit, index) => (
         <Reveal key={benefit.title} delay={(index % 3) * 90}>
-          <div className="group relative h-full overflow-hidden rounded-2xl bg-white p-6 shadow-sm ring-1 ring-navy/8 transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:ring-brand/25 active:-translate-y-0.5">
+          <div className="group relative h-full overflow-hidden rounded-2xl bg-white p-6 shadow-sm ring-1 ring-navy/8 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:ring-brand/35 active:-translate-y-0.5">
             {/* numéro fantôme */}
             <span
               aria-hidden="true"
-              className="pointer-events-none absolute -right-1 -top-2 font-heading text-[64px] font-extrabold leading-none text-navy/[0.035] transition-colors duration-300 group-hover:text-brand/[0.07]"
+              className="pointer-events-none absolute -right-1 -top-2 font-heading text-[68px] font-extrabold leading-none text-navy/[0.055] transition-colors duration-300 group-hover:text-brand/[0.12]"
             >
               {String(index + 1).padStart(2, "0")}
             </span>
 
-            <span className="relative flex h-11 w-11 items-center justify-center rounded-xl bg-brand/10 text-brand transition-colors duration-300 group-hover:bg-brand/15">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <span className="relative flex h-12 w-12 items-center justify-center rounded-xl bg-brand/[0.13] text-brand ring-1 ring-brand/20 transition-all duration-300 group-hover:bg-brand/20 group-hover:ring-brand/35">
+              <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.85" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 {ICONS[benefit.icon] ?? ICONS.check}
               </svg>
             </span>
@@ -35,7 +35,7 @@ export default function WhyUs() {
             </h3>
             <span
               aria-hidden="true"
-              className="relative mt-2.5 block h-0.5 w-7 rounded-full bg-brand/70 transition-all duration-300 group-hover:w-12"
+              className="relative mt-2.5 block h-0.5 w-8 rounded-full bg-brand/80 transition-all duration-300 group-hover:w-14 group-hover:bg-brand"
             />
             <p className="relative mt-3 text-[13.5px] leading-relaxed text-navy/60">{benefit.text}</p>
           </div>
