@@ -16,13 +16,13 @@ export default function WhyUs() {
       {benefits.map((benefit, index) => (
         <Reveal key={benefit.title} delay={(index % 3) * 90}>
           <div className="h-full rounded-2xl bg-white p-6 ring-1 ring-navy/8 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg active:-translate-y-0.5">
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand/10 text-brand-dark">
+            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand/10 text-brand">
               <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 {ICONS[benefit.icon] ?? ICONS.check}
               </svg>
             </span>
-            <h3 className="mt-4 font-heading text-base font-bold text-navy">{benefit.title}</h3>
-            <p className="mt-2 text-sm leading-relaxed text-navy/65">{benefit.text}</p>
+            <h3 className="mt-4 font-heading text-[15px] font-bold text-brand">{benefit.title}</h3>
+            <p className="mt-2 text-[13.5px] leading-relaxed text-navy/60">{benefit.text}</p>
           </div>
         </Reveal>
       ))}

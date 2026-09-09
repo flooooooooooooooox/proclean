@@ -19,11 +19,16 @@ export default function ServicesGrid({ items }: { items: Service[] }) {
               className="aspect-[16/10] w-full"
             />
             <div className="flex flex-1 flex-col p-5">
-              <h3 className="font-heading text-base font-bold text-navy">{service.title}</h3>
-              <p className="mt-2 flex-1 text-sm leading-relaxed text-navy/65">
+              <h3 className="flex items-center gap-2 font-heading text-[15px] font-bold text-brand">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                {service.title}
+              </h3>
+              <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-navy/60">
                 {service.description}
               </p>
-              <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-dark">
+              <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-semibold text-brand-dark">
                 En savoir plus
                 <span className="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">
                   →

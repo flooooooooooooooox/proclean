@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f7f6f4;
-  --foreground: #1c1917;
-  --color-cream: #f7f6f4;
-  --color-cream-alt: #eeebe6;
-  --color-navy: #24211e;
-  --color-navy-light: #3d3833;
+  --background: #f6f7f9;
+  --foreground: #111418;
+  --color-cream: #f6f7f9;
+  --color-cream-alt: #eceef2;
+  --color-navy: #111418;
+  --color-navy-light: #2b323b;
   --color-brand: #f4511e;
   --color-brand-dark: #c9400f;
 }
@@ -25,10 +25,7 @@
 }
 
 body {
-  background:
-    radial-gradient(circle at 12% 0%, rgba(244, 81, 30, 0.08), transparent 45%),
-    radial-gradient(circle at 100% 20%, rgba(244, 81, 30, 0.06), transparent 40%),
-    var(--background);
+  background: var(--background);
   color: var(--foreground);
 }
 
@@ -75,30 +72,30 @@ body {
   /* Reflet clair sur fond sombre (hero, CTA) */
   .btn-ghost {
     color: var(--color-cream);
-    border: 1px solid rgba(247, 246, 244, 0.3);
-    background: rgba(247, 246, 244, 0.04);
+    border: 1px solid rgba(246, 247, 249, 0.3);
+    background: rgba(246, 247, 249, 0.04);
     backdrop-filter: blur(4px);
   }
 
   .btn-ghost:hover {
     transform: translateY(-2px);
-    border-color: rgba(247, 246, 244, 0.6);
-    background: rgba(247, 246, 244, 0.12);
+    border-color: rgba(246, 247, 249, 0.6);
+    background: rgba(246, 247, 249, 0.12);
   }
 
   /* Contour sombre sur fond clair */
   .btn-outline {
     color: var(--color-navy);
-    border: 1px solid rgba(36, 33, 30, 0.2);
+    border: 1px solid rgba(17, 20, 24, 0.2);
     background: #fff;
-    box-shadow: 0 2px 8px -4px rgba(36, 33, 30, 0.25);
+    box-shadow: 0 2px 8px -4px rgba(17, 20, 24, 0.25);
   }
 
   .btn-outline:hover {
     transform: translateY(-2px);
     border-color: var(--color-brand);
     color: var(--color-brand-dark);
-    box-shadow: 0 8px 18px -6px rgba(36, 33, 30, 0.3);
+    box-shadow: 0 8px 18px -6px rgba(17, 20, 24, 0.3);
   }
 
   .btn-sm {
@@ -298,10 +295,10 @@ h1, h2, h3, .font-heading {
   background:
     repeating-linear-gradient(
       45deg,
-      rgba(36, 33, 30, 0.035),
-      rgba(36, 33, 30, 0.035) 12px,
-      rgba(36, 33, 30, 0.06) 12px,
-      rgba(36, 33, 30, 0.06) 24px
+      rgba(17, 20, 24, 0.035),
+      rgba(17, 20, 24, 0.035) 12px,
+      rgba(17, 20, 24, 0.06) 12px,
+      rgba(17, 20, 24, 0.06) 24px
     ),
-    #e6e3de;
+    #e7eaee;
 }
