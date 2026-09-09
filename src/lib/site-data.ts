@@ -47,7 +47,9 @@ export const siteConfig = {
     "May-sur-Orne",
     "Bernières-sur-Mer",
   ],
-  url: "https://proclean-stj.fr",
+  // ⚠️ URL de PRÉVERSION. À remettre sur "https://proclean-stj.fr" le jour où le domaine
+  // est branché sur Vercel (impacte canonical, sitemap, robots, OpenGraph, llms.txt).
+  url: "https://proclean-lilac.vercel.app",
   googleRating: 5,
   googleReviewCount: 10 as number | null,
   facebookUrl: "",
