@@ -16,19 +16,48 @@
 - ⚠️ **Il ignore que son agence lui fait tourner des Google Ads** → risque majeur : s'il résilie tout,
   ses campagnes s'arrêtent et ses demandes de devis peuvent chuter. **Le prévenir AVANT** (fait le
   2026-09-04 via Josselyn) : crédibilité + protection si les leads baissent après la bascule.
-- Tarif convenu : **one shot — montant à définir** (le client paie aujourd'hui ~700 €/mois pour son site actuel → argument commercial n°1)
+- Tarif convenu : **750 € one-shot (site), proposé le 2026-09-09** (le client paie aujourd'hui ~700 €/mois pour son site actuel → argument commercial n°1)
 
 ## Statut
-- **Étape** (1→9, cf. pipeline.md) : **1 — Prospect** (site existant, bon, chez un prestataire — vente difficile)
-- **Prochaine action** : reconfirmer l'absence de Google Ads, puis appeler le gérant.
-  Angle : « vous louez un site déjà terminé 8 400 €/an » + « vos avis Google décrochent face à
-  Propre Eclat ». Faire dire ce que couvrent les 700 €/mois et qui possède domaine + code.
+- **Étape** (1→9, cf. pipeline.md) : **1 — Prospect / offre proposée (750 €)** — en attente de réponse
+- **Prochaine action** : obtenir par écrit de l'agence pub si les 250 €/mois incluent le budget
+  média, et l'engagement d'ouvrir le compte Ads au nom de PROCLEAN STJ. Puis confirmer l'offre
+  à 750 € au client et lancer `/site-artisan`.
 - **Date de relance** : [à définir]
 - Blocages :
   - `proclean-stj.fr` inaccessible depuis l'environnement (proxy : CONNECT 403). Audit fait sur le
     HTML de l'accueil sauvegardé le 2026-09-04. Les autres pages restent à auditer de la même façon.
   - **Le site actuel est de bonne qualité** → l'argument « votre site est mauvais » ne tient pas.
   - **Google Ads actif** → risque de lui faire perdre ses leads en cassant l'existant.
+
+## Offre en cours (proposée le 2026-09-09)
+- **Site : 750 € one-shot** (proposé à M. Berthelot).
+- **Publicité : agence partenaire trouvée → 900 € de mise en place + 250 €/mois.**
+- Comparatif : aujourd'hui 8 400 €/an. Nouvelle formule année 1 = 750 + 900 + 3 000 = **4 650 €**
+  (≈ 3 750 € économisés), puis ~3 180 €/an (≈ 5 200 €/an économisés).
+
+### 🚨 À vérifier avant toute promesse d'économie
+**Les 250 €/mois incluent-ils le budget publicitaire, ou est-ce l'honoraire seul ?**
+Si c'est l'honoraire seul, il faut ajouter ~300 €/mois de budget média → année 1 ≈ 8 250 €
+contre 8 400 € aujourd'hui : **l'économie tombe à ~150 €** et tout l'argumentaire s'effondre.
+→ Obtenir la réponse par écrit de l'agence pub AVANT de présenter les chiffres au client.
+
+### 🚨 Exigences à imposer à l'agence pub (par écrit)
+- **Le compte Google Ads doit être ouvert au nom de PROCLEAN STJ**, client en accès administrateur.
+  Sinon on reproduit exactement le problème qu'on vend comme solution.
+- Clarifier ce que couvrent les 900 € de mise en place.
+- Décider qui facture : **client en direct avec l'agence pub** (recommandé, aucun risque porté,
+  possible commission d'apporteur) **ou** revente (trésorerie avancée + responsabilité sur la perf).
+
+### ⚠️ « À l'identique » — risque de contrefaçon
+Le site actuel appartient à EP DIGITAL X tant qu'il n'est pas cédé : **code, design et textes sont
+protégés par le droit d'auteur**. Ne pas reproduire à l'identique.
+- Reprenable : structure, faits (prestations, villes, chantiers, horaires, coordonnées), photos
+  **si elles appartiennent au client** (à vérifier).
+- Non reprenable : textes mot pour mot, maquette graphique, code.
+- Formuler « un site équivalent, aussi complet », jamais « à l'identique ».
+- ❌ **Ne PAS reprendre les faux témoignages** (Sophie Lefèvre, Marc Durand…) ni le
+  « +10 ans d'expérience » (société créée en 2023) : on en deviendrait juridiquement responsable.
 
 ## Le prestataire actuel
 - **EP DIGITAL X** — Daniel Sammy FERRAS, président. 5 rue Capitaine Boualam, 14000 Caen.
@@ -178,6 +207,10 @@ Si elles sont à l'arrêt → il paie pour un service qui ne tourne plus, argume
 - Ne pas promettre de gérer du Google Ads si on ne sait pas le faire.
 
 ## Historique des échanges
+- 2026-09-09 — **Offre posée : 750 € one-shot pour le site.** Agence pub partenaire trouvée
+  (900 € de mise en place + 250 €/mois). Points bloquants à lever : ce que couvrent les 250 €
+  (budget média inclus ou non), le compte Ads au nom du client, qui facture qui, et le risque de
+  contrefaçon si le site est refait « à l'identique ».
 - 2026-09-04 — Contexte clarifié : Josselyn est l'associé, le prospect est **déjà demandeur** d'un
   one-shot mais **ignore l'existence de ses Google Ads**. Message d'information rédigé
   (`messages.md`) et transmis via Josselyn : on l'alerte sur le risque avant toute résiliation, et
