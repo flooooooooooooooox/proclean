@@ -9,25 +9,55 @@ const ICONS = [
 
 export default function Process() {
   return (
-    <ol className="grid gap-8 md:grid-cols-3">
-      {processSteps.map((step, index) => (
-        <Reveal key={step.title} delay={index * 110}>
-          <li className="text-center">
-            <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-brand/10 text-brand">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                {ICONS[index] ?? ICONS[0]}
-              </svg>
-            </span>
-            <p className="mt-4 text-[11px] font-bold uppercase tracking-[0.16em] text-brand">
-              Étape {String(index + 1).padStart(2, "0")}
-            </p>
-            <h3 className="mt-1.5 font-heading text-base font-bold text-navy">{step.title}</h3>
-            <p className="mx-auto mt-2 max-w-xs text-[13.5px] leading-relaxed text-navy/60">
-              {step.text}
-            </p>
-          </li>
-        </Reveal>
-      ))}
-    </ol>
+    <div className="relative">
+      {/* Fil conducteur entre les étapes (desktop) */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-x-0 top-[52px] hidden md:block"
+      >
+        <div className="mx-auto flex max-w-4xl items-center px-24">
+          <span className="h-px flex-1 bg-[repeating-linear-gradient(to_right,rgba(244,81,30,0.35)_0_6px,transparent_6px_12px)]" />
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="mx-2 shrink-0 text-brand/40">
+            <path d="M9 6l6 6-6 6" />
+          </svg>
+          <span className="h-px flex-1 bg-[repeating-linear-gradient(to_right,rgba(244,81,30,0.35)_0_6px,transparent_6px_12px)]" />
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="mx-2 shrink-0 text-brand/40">
+            <path d="M9 6l6 6-6 6" />
+          </svg>
+        </div>
+      </div>
+
+      <ol className="relative grid gap-6 md:grid-cols-3">
+        {processSteps.map((step, index) => (
+          <Reveal key={step.title} delay={index * 130}>
+            <li className="group relative h-full rounded-2xl bg-white px-6 pb-7 pt-8 text-center shadow-sm ring-1 ring-navy/8 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:ring-brand/35">
+              <span className="relative mx-auto flex h-[68px] w-[68px] items-center justify-center rounded-full bg-brand/[0.13] text-brand ring-1 ring-brand/20 transition-all duration-300 group-hover:bg-brand group-hover:text-white group-hover:ring-brand group-hover:shadow-lg group-hover:shadow-brand/30">
+                <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  {ICONS[index] ?? ICONS[0]}
+                </svg>
+                {/* pastille numérotée */}
+                <span className="absolute -bottom-1 -right-1 flex h-7 w-7 items-center justify-center rounded-full bg-white font-heading text-[12px] font-extrabold text-brand shadow-sm ring-1 ring-brand/25 transition-colors duration-300 group-hover:bg-navy group-hover:text-white group-hover:ring-navy">
+                  {index + 1}
+                </span>
+              </span>
+
+              <p className="mt-5 text-[11px] font-bold uppercase tracking-[0.16em] text-brand">
+                Étape {String(index + 1).padStart(2, "0")}
+              </p>
+              <h3 className="mt-1.5 font-heading text-[17px] font-extrabold tracking-tight text-navy">
+                {step.title}
+              </h3>
+              <span
+                aria-hidden="true"
+                className="mx-auto mt-3 block h-0.5 w-7 rounded-full bg-brand/60 transition-all duration-300 group-hover:w-12 group-hover:bg-brand"
+              />
+              <p className="mx-auto mt-3 max-w-xs text-[13.5px] leading-relaxed text-navy/60">
+                {step.text}
+              </p>
+            </li>
+          </Reveal>
+        ))}
+      </ol>
+    </div>
   );
 }
