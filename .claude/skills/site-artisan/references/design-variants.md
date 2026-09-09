@@ -170,7 +170,7 @@ Les polices sont chargées via `next/font/google` (remplacer la paire Geist par 
 | V10 Gris Béton Moderne | ✅ libre | — | — |
 | V11 Bordeaux Élégant | ✅ libre | — | — |
 | V12 Forêt Profonde | ✅ libre | — | — |
-| V13 Cyan Frais | ✅ libre | — | — |
+| V13 Cyan Frais | 🔒 utilisée | PROCLEAN STJ (nettoyage B2B, Caen) | 2026-09 |
 | V14 Indigo Tech | ✅ libre | — | — |
 | V15 Olive Terroir | ✅ libre | — | — |
 | V16 Corail Doux | ✅ libre | — | — |
