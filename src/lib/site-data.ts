@@ -729,6 +729,26 @@ export const testimonials: {
 /** Vide tant que les photos avant/après ne sont pas fournies. */
 export const beforeAfterGallery: { title: string; before: string; after: string }[] = [];
 
+/**
+ * Chiffres clés affichés dans le hero et dans la section « en chiffres ».
+ * ⚠️ Ne renseigner que des chiffres CONFIRMÉS par le client : un chiffre
+ * invérifiable dans une publicité relève de la pratique commerciale trompeuse
+ * (art. L121-2 du code de la consommation).
+ */
+export const heroFigures = [
+  { value: "+200", label: "Clients satisfaits" },
+  { value: "Calvados", label: "Zone d'intervention" },
+  { value: "24h", label: "Délai de réponse" },
+];
+
+export const keyFigures = [
+  { value: "+200", label: "Clients satisfaits", icon: "users" },
+  { value: "6 à 9", label: "Agents formés", icon: "team" },
+  { value: "100%", label: "Clientèle professionnelle", icon: "case" },
+  { value: "24h", label: "Délai de réponse au devis", icon: "clock" },
+  { value: "48h", label: "Mise en place possible", icon: "bolt" },
+];
+
 export const legalMentions = {
   companyName: "PROCLEAN STJ",
   legalForm: "SARL (société à responsabilité limitée)",

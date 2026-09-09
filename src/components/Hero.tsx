@@ -1,12 +1,7 @@
 import Link from "next/link";
 import Photo from "./Photo";
-import { siteConfig } from "@/lib/site-data";
+import { heroFigures, siteConfig } from "@/lib/site-data";
 
-const STATS = [
-  { value: "2023", label: "Création de l'entreprise" },
-  { value: "Calvados", label: "Zone d'intervention" },
-  { value: "24h", label: "Délai de réponse" },
-];
 
 export default function Hero() {
   return (
@@ -57,7 +52,7 @@ export default function Hero() {
           </div>
 
           <dl className="mt-10 flex flex-wrap gap-x-10 gap-y-5">
-            {STATS.map((stat) => (
+            {heroFigures.map((stat) => (
               <div key={stat.label}>
                 <dt className="font-heading text-xl font-extrabold text-brand sm:text-2xl">
                   {stat.value}
