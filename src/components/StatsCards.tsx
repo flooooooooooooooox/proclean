@@ -21,7 +21,7 @@ export default function StatsCards() {
                 {ICONS[stat.icon] ?? ICONS.clock}
               </svg>
             </span>
-            <p className="mt-4 font-heading text-[30px] font-extrabold leading-none tracking-tight text-navy sm:text-[34px]">
+            <p className="mt-4 font-heading text-[26px] font-bold leading-none tracking-tight text-navy/80 sm:text-[29px]">
               {stat.value}
             </p>
             <span
