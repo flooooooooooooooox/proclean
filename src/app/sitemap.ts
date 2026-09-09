@@ -27,7 +27,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${base}/entreprise-nettoyage-caen`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
     { url: `${base}/a-propos`, lastModified: now, changeFrequency: "yearly", priority: 0.6 },
-    { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.9 },
+    { url: `${base}/demande-de-devis`, lastModified: now, changeFrequency: "yearly", priority: 0.9 },
   ];
 }

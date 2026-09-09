@@ -72,12 +72,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/entreprise-nettoyage-caen" className="text-navy/65 hover:text-brand-dark">
+                  Entreprise de nettoyage à Caen
+                </Link>
+              </li>
+              <li>
                 <Link href="/a-propos" className="text-navy/65 hover:text-brand-dark">
                   À propos
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-navy/65 hover:text-brand-dark">
+                <Link href="/demande-de-devis" className="text-navy/65 hover:text-brand-dark">
                   Demander un devis
                 </Link>
               </li>

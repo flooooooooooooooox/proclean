@@ -65,7 +65,7 @@ export default function Header() {
             </svg>
             {siteConfig.phone}
           </a>
-          <Link href="/contact" className="btn btn-primary btn-sm">
+          <Link href="/demande-de-devis" className="btn btn-primary btn-sm">
             Demander un devis
           </Link>
         </div>
@@ -119,7 +119,7 @@ export default function Header() {
               <a href={siteConfig.phoneHref} className="btn btn-outline w-full">
                 {siteConfig.phone}
               </a>
-              <Link href="/contact" onClick={() => setOpen(false)} className="btn btn-primary w-full">
+              <Link href="/demande-de-devis" onClick={() => setOpen(false)} className="btn btn-primary w-full">
                 Demander un devis gratuit
               </Link>
             </div>

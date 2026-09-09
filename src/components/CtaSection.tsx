@@ -17,7 +17,7 @@ export default function CtaSection({
           <h2 className="font-heading text-2xl font-extrabold text-white sm:text-3xl">{title}</h2>
           <p className="mt-3 text-sm leading-relaxed text-white/75 sm:text-base">{text}</p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <Link href="/contact" className="btn btn-primary">
+            <Link href="/demande-de-devis" className="btn btn-primary">
               Demander un devis gratuit
             </Link>
             <a href={siteConfig.phoneHref} className="btn btn-ghost">

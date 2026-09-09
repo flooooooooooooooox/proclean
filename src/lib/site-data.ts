@@ -612,10 +612,11 @@ export const realisations: Realisation[] = [
   { slug: "nettoyage-vitres-ecole-may-sur-orne", title: "Vitres d'une école", city: "May-sur-Orne", category: "Vitres", summary: "Nettoyage des vitrages d'un groupe scolaire pendant les vacances scolaires.", image: null },
   { slug: "nettoyage-vitres-ecole-ranville", title: "Vitres d'une école", city: "Ranville", category: "Vitres", summary: "Nettoyage intérieur et extérieur des vitrages d'une école communale.", image: null },
   { slug: "nettoyage-vitres-centre-aquatique-douvres-la-delivrande", title: "Vitrages d'un centre aquatique", city: "Douvres-la-Délivrande", category: "Vitres", summary: "Nettoyage des grandes surfaces vitrées d'un centre aquatique, y compris en hauteur.", image: null },
-  { slug: "nettoyage-fin-de-chantier-magasin-mango-caen", title: "Magasin de prêt-à-porter Mango", city: "Caen", category: "Fin de chantier", summary: "Remise en état complète d'une boutique de prêt-à-porter avant son ouverture.", image: null },
+  { slug: "nettoyage-fin-de-chantier-magasin-pret-a-porter-caen", title: "Magasin de prêt-à-porter", city: "Caen", category: "Fin de chantier", summary: "Remise en état complète d'une boutique de prêt-à-porter avant son ouverture.", image: null },
   { slug: "nettoyage-fin-de-chantier-boutique-cyrillus-caen", title: "Boutique Cyrillus", city: "Caen", category: "Fin de chantier", summary: "Nettoyage de fin de chantier d'une boutique de centre-ville avant réception.", image: null },
-  { slug: "nettoyage-fin-de-chantier-centre-medical-bayeux", title: "Centre médical", city: "Bayeux", category: "Médical", summary: "Remise en état d'un centre médical neuf avant l'installation des praticiens.", image: null },
-  { slug: "nettoyage-fin-de-chantier-bureaux-epron", title: "Immeuble de bureaux", city: "Épron", category: "Tertiaire", summary: "Nettoyage de livraison d'un immeuble de bureaux : sols, vitrages et sanitaires.", image: null },
+  { slug: "nettoyage-fin-de-chantier-boutique-bocage-caen", title: "Boutique Bocage", city: "Caen", category: "Fin de chantier", summary: "Remise en état d'une boutique de chaussures avant son ouverture au public.", image: null },
+  { slug: "nettoyage-entretien-regulier-centre-medical-bayeux", title: "Centre médical", city: "Bayeux", category: "Médical", summary: "Entretien régulier d'un centre médical : salles de soins, accueil et circulations.", image: null },
+  { slug: "nettoyage-entretien-regulier-vitrerie-bureaux-epron", title: "Immeuble de bureaux", city: "Épron", category: "Tertiaire", summary: "Entretien régulier et vitrerie d'un immeuble de bureaux : sols, vitrages et sanitaires.", image: null },
 ];
 
 export const benefits = [

@@ -75,7 +75,7 @@ export default async function ServicePageRoute({ params }: Props) {
               </h1>
               <p className="mt-5 text-base leading-relaxed text-navy/70">{content.intro}</p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <Link href="/contact" className="btn btn-primary">
+                <Link href="/demande-de-devis" className="btn btn-primary">
                   Demander un devis gratuit
                 </Link>
                 <a href={siteConfig.phoneHref} className="btn btn-outline">

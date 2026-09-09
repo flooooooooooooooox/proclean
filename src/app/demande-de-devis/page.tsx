@@ -9,7 +9,7 @@ import { getBreadcrumbSchema } from "@/lib/structured-data";
 export const metadata: Metadata = {
   title: "Demander un devis gratuit",
   description: `Contactez ${siteConfig.name} pour un devis de nettoyage à Caen ou dans le Calvados. Réponse sous 24h, devis gratuit et sans engagement. Tél. ${siteConfig.phone}.`,
-  alternates: { canonical: "/contact" },
+  alternates: { canonical: "/demande-de-devis" },
 };
 
 const REASSURANCE = [
@@ -22,7 +22,7 @@ const REASSURANCE = [
 export default function ContactPage() {
   const crumbs = [
     { name: "Accueil", path: "/" },
-    { name: "Contact", path: "/contact" },
+    { name: "Contact", path: "/demande-de-devis" },
   ];
 
   return (

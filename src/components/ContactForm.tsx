@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useActionState } from "react";
-import { submitContactForm, type ContactState } from "@/app/contact/actions";
+import { submitContactForm, type ContactState } from "@/app/demande-de-devis/actions";
 import { services } from "@/lib/site-data";
 
 const initialState: ContactState = { status: "idle", message: "" };

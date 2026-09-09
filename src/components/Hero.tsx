@@ -40,7 +40,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Link href="/contact" className="btn btn-primary">
+            <Link href="/demande-de-devis" className="btn btn-primary">
               Demander un devis gratuit
             </Link>
             <a href={siteConfig.phoneHref} className="btn btn-ghost">

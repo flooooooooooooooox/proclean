@@ -83,7 +83,7 @@ export default async function RealisationPage({ params }: Props) {
               vos locaux, nous vous répondons sous 24 heures avec un devis gratuit.
             </p>
             <div className="mt-5 flex flex-col gap-3 sm:flex-row">
-              <Link href="/contact" className="btn btn-primary">
+              <Link href="/demande-de-devis" className="btn btn-primary">
                 Demander un devis
               </Link>
               <a href={siteConfig.phoneHref} className="btn btn-outline">

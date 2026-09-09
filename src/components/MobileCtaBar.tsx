@@ -14,7 +14,7 @@ export default function MobileCtaBar() {
         Appeler
       </a>
       <Link
-        href="/contact"
+        href="/demande-de-devis"
         className="flex flex-1 items-center justify-center gap-2 rounded-full bg-gradient-to-br from-brand to-brand-dark py-3 text-sm font-semibold text-white shadow-sm"
       >
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
