@@ -1,36 +1,22 @@
 import Link from "next/link";
-import ZoneMap from "./ZoneMap";
+import ZoneExplorer from "./ZoneExplorer";
 import { siteConfig } from "@/lib/site-data";
 
 export default function ZoneSection() {
   return (
-    <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
-      <div className="overflow-hidden rounded-2xl bg-white ring-1 ring-navy/8">
-        <ZoneMap />
-      </div>
-      <div>
-        <p className="text-sm leading-relaxed text-navy/70">
+    <div>
+      <ZoneExplorer />
+      <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-navy/8 pt-6">
+        <p className="max-w-2xl text-[13.5px] leading-relaxed text-navy/55">
           {siteConfig.name} intervient dans tout le département du Calvados (14), dans un rayon
-          d&apos;environ {siteConfig.serviceRadiusKm} km autour de {siteConfig.city}. De Caen à
-          Bayeux, de Lisieux à Honfleur&nbsp;: si votre établissement est dans le Calvados, nous
-          pouvons intervenir.
+          d&apos;environ {siteConfig.serviceRadiusKm} km autour de {siteConfig.city}. Votre commune
+          n&apos;apparaît pas&nbsp;? Appelez-nous, elle est probablement couverte.
         </p>
-        <ul className="mt-5 flex flex-wrap gap-2">
-          {siteConfig.areaServed.slice(0, 16).map((city) => (
-            <li
-              key={city}
-              className="rounded-full bg-white px-3 py-1.5 text-[13px] text-navy/70 ring-1 ring-navy/8"
-            >
-              {city}
-            </li>
-          ))}
-        </ul>
         <Link
           href="/zones-intervention"
-          className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand-dark hover:underline"
+          className="text-sm font-semibold text-brand-dark hover:underline"
         >
-          Voir toutes les communes desservies
-          <span aria-hidden="true">→</span>
+          Voir toutes les communes desservies →
         </Link>
       </div>
     </div>

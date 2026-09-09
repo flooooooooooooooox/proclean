@@ -13,16 +13,26 @@ export default function StatsCards() {
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
       {STATS.map((stat, index) => (
         <Reveal key={stat.label} delay={index * 70}>
-          <div className="h-full rounded-2xl bg-white px-4 py-6 text-center shadow-sm ring-1 ring-navy/8">
-            <span className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-brand/10 text-brand">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <div className="group relative h-full overflow-hidden rounded-2xl bg-white px-4 pb-6 pt-7 text-center shadow-sm ring-1 ring-navy/8 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:ring-brand/40 active:-translate-y-0.5">
+            {/* liseré orange en haut */}
+            <span
+              aria-hidden="true"
+              className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-brand to-brand-dark"
+            />
+            {/* halo au survol */}
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-brand/10 opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-100"
+            />
+            <span className="relative mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand to-brand-dark text-white shadow-md shadow-brand/25 transition-transform duration-300 group-hover:scale-110">
+              <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 {stat.icon}
               </svg>
             </span>
-            <p className="mt-3 font-heading text-xl font-extrabold text-navy sm:text-2xl">
+            <p className="relative mt-4 font-heading text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
               {stat.value}
             </p>
-            <p className="mt-1 text-[11px] font-medium uppercase tracking-wide text-navy/45">
+            <p className="relative mt-2 text-[11px] font-semibold uppercase leading-snug tracking-wide text-navy/45">
               {stat.label}
             </p>
           </div>

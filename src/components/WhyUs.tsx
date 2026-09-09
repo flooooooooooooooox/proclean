@@ -12,17 +12,32 @@ const ICONS: Record<string, React.ReactNode> = {
 
 export default function WhyUs() {
   return (
-    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {benefits.map((benefit, index) => (
         <Reveal key={benefit.title} delay={(index % 3) * 90}>
-          <div className="h-full rounded-2xl bg-white p-6 ring-1 ring-navy/8 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg active:-translate-y-0.5">
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand/10 text-brand">
-              <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <div className="group relative h-full overflow-hidden rounded-2xl bg-white p-6 shadow-sm ring-1 ring-navy/8 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:ring-brand/40 active:-translate-y-0.5">
+            {/* numéro fantôme */}
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute -right-1 -top-3 font-heading text-[76px] font-extrabold leading-none text-navy/[0.04] transition-colors duration-300 group-hover:text-brand/10"
+            >
+              {String(index + 1).padStart(2, "0")}
+            </span>
+
+            <span className="relative flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand to-brand-dark text-white shadow-md shadow-brand/25 transition-transform duration-300 group-hover:scale-110">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 {ICONS[benefit.icon] ?? ICONS.check}
               </svg>
             </span>
-            <h3 className="mt-4 font-heading text-[15px] font-bold text-brand">{benefit.title}</h3>
-            <p className="mt-2 text-[13.5px] leading-relaxed text-navy/60">{benefit.text}</p>
+
+            <h3 className="relative mt-5 font-heading text-[17px] font-extrabold tracking-tight text-navy">
+              {benefit.title}
+            </h3>
+            <span
+              aria-hidden="true"
+              className="relative mt-2.5 block h-0.5 w-8 rounded-full bg-brand transition-all duration-300 group-hover:w-14"
+            />
+            <p className="relative mt-3 text-[14px] leading-relaxed text-navy/60">{benefit.text}</p>
           </div>
         </Reveal>
       ))}
