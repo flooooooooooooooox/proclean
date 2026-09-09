@@ -145,6 +145,14 @@ Les polices sont chargées via `next/font/google` (remplacer la paire Geist par 
 - brand `#2fb37e` · brand-dark `#1f8a60`
 - Typo : **Sora** + **Inter** · Ambiance : écologique, moderne, positif
 
+## V21 — Orange Proclean (sur mesure) · nettoyage B2B — reprend l'identité du client
+- background `#f7f6f4` · foreground `#1c1917`
+- cream `#f7f6f4` · cream-alt `#eeebe6`
+- navy `#24211e` · navy-light `#3d3833`
+- brand `#f4511e` · brand-dark `#c9400f`
+- Typo : **Manrope** (titres) + **Inter** (texte) · Ambiance : franc, énergique, professionnel
+- Créée pour coller au logo orange existant de PROCLEAN STJ.
+
 ## V20 — Sable Chaud · plâtrier, enduit, façade
 - background `#f8f5ef` · foreground `#332a1e`
 - cream `#f8f5ef` · cream-alt `#ece2d1`
@@ -170,7 +178,7 @@ Les polices sont chargées via `next/font/google` (remplacer la paire Geist par 
 | V10 Gris Béton Moderne | ✅ libre | — | — |
 | V11 Bordeaux Élégant | ✅ libre | — | — |
 | V12 Forêt Profonde | ✅ libre | — | — |
-| V13 Cyan Frais | 🔒 utilisée | PROCLEAN STJ (nettoyage B2B, Caen) | 2026-09 |
+| V13 Cyan Frais | ✅ libre | — | — |
 | V14 Indigo Tech | ✅ libre | — | — |
 | V15 Olive Terroir | ✅ libre | — | — |
 | V16 Corail Doux | ✅ libre | — | — |
@@ -178,6 +186,7 @@ Les polices sont chargées via `next/font/google` (remplacer la paire Geist par 
 | V18 Or Noir Luxe | ✅ libre | — | — |
 | V19 Vert Menthe Éco | ✅ libre | — | — |
 | V20 Sable Chaud | ✅ libre | — | — |
+| V21 Orange Proclean (sur mesure) | 🔒 utilisée | PROCLEAN STJ (nettoyage B2B, Caen) | 2026-09 |
 
 > Règle : au démarrage, ne proposer que les variantes `✅ libre`. Après attribution,
 > passer la ligne à `🔒 utilisée` avec le nom du client et le mois, puis committer ce fichier.

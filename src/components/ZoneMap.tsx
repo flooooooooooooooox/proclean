@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 import { siteConfig } from "@/lib/site-data";
 
 const CENTER: [number, number] = [siteConfig.geo.lat, siteConfig.geo.lng];
-const BRAND = "#1fb6d6";
+const BRAND = "#f4511e";
 
 export default function ZoneMap() {
   const containerRef = useRef<HTMLDivElement>(null);

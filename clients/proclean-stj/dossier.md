@@ -19,9 +19,9 @@
 - Tarif convenu : **750 € one-shot (site), proposé le 2026-09-09** (le client paie aujourd'hui ~700 €/mois pour son site actuel → argument commercial n°1)
 
 ## Statut
-- **Étape** (1→9, cf. pipeline.md) : **1 — Prospect / offre proposée (750 €)** — en attente de réponse
-- **Prochaine action** : réponse du client sur l'offre à 750 €. Dès accord → collecter logo,
-  photos, infos légales, puis lancer `/site-artisan`.
+- **Étape** (1→9, cf. pipeline.md) : **4 — Construit** (site généré, build OK) / offre à 750 € en attente
+- **Prochaine action** : déployer en préversion Vercel pour montrer le site au client, puis
+  collecter logo + photos + infos légales manquantes, puis `/controle-final`.
 - **Date de relance** : [à définir]
 - Blocages :
   - `proclean-stj.fr` inaccessible depuis l'environnement (proxy : CONNECT 403). Audit fait sur le
@@ -73,10 +73,12 @@ protégés par le droit d'auteur**. Ne pas reproduire à l'identique.
 - ⚠️ Contrat en cours : durée d'engagement / préavis de résiliation à vérifier.
 
 ## Projet
-- Variante de design attribuée : [à faire — /site-artisan]
-- Fonctionnalités activées : avant/après ☐ · carte ☐ · avis ☐ · formulaire ☑ (devis 24 h) · FAQ ☐ · Pourquoi ☐ · Comment ☐ · barre mobile ☐
+- Variante de design attribuée : **V21 Orange Proclean (sur mesure)** — reprend l'orange du logo client
+- Fonctionnalités activées : avant/après ☐ (photos manquantes) · carte ☑ · avis ☐ (aucun vrai avis
+  fourni) · formulaire ☑ · FAQ ☑ · Pourquoi ☑ · Comment ☑ · barre mobile ☑ · pages prestation ☑ (12)
+  · réalisations ☑ (24)
 - Repo GitHub : flooooooooooooooox/proclean
-- URL preview (Vercel) :
+- URL preview (Vercel) : [à créer — voir guide de déploiement]
 - URL production / domaine : proclean-stj.fr (site actuel, pas le nôtre)
 
 ## Infos collectées (☑ = reçu)
@@ -199,7 +201,27 @@ Si elles sont à l'arrêt → il paie pour un service qui ne tourne plus, argume
 - Ne jamais dire « votre site est mauvais » : il est bon, et c'est vérifiable.
 - Ne pas promettre de gérer du Google Ads si on ne sait pas le faire.
 
+## État du site construit (2026-09-09)
+- Next.js 16 / App Router / Tailwind v4 — **52 pages**, build et lint OK.
+- Variante **V21 Orange Proclean (sur mesure)** : reprend l'orange du logo existant du client.
+- **URLs alignées sur le site actuel** (indispensable : les annonces Google pointent dessus) :
+  `/demande-de-devis`, les 12 `/[service]-caen`, `/entreprise-nettoyage-caen`, les 24 slugs
+  `/realisations/...`. Redirection 301 `/contact` → `/demande-de-devis`.
+- SEO : métadonnées + canonical par page, sitemap, robots, **og:image** (absente du site actuel).
+- GEO : `/llms.txt`, robots IA autorisés, JSON-LD `CleaningService` enrichi (GeoCircle 45 km,
+  knowsAbout, makesOffer, SIREN/SIRET, foundingDate).
+- Formulaire Resend fonctionnel (repli propre si clé absente).
+- **Non repris volontairement** : faux témoignages, « +10 ans d'expérience », « 200+ clients ».
+  Textes, design et code entièrement réécrits → pas de risque de contrefaçon vis-à-vis d'EP Digital X.
+
+### Reste à obtenir du client
+- Logo (fichier) — logo textuel provisoire en place
+- Photos : hero, 12 prestations, 24 réalisations, équipe (vérifier **qui en est propriétaire**)
+- Légal : capital social, n° TVA, assurance RC Pro, confirmation clientèle 100 % B2B
+
 ## Historique des échanges
+- 2026-09-09 — **Site construit** (52 pages) puis passé en palette orange pour coller au logo
+  client. URLs alignées sur celles du site existant pour ne pas casser les annonces Google.
 - 2026-09-09 — **Offre posée : 750 € one-shot pour le site.** Agence pub partenaire trouvée
   (900 € de mise en place + 250 €/mois). Points bloquants à lever : ce que couvrent les 250 €
   (budget média inclus ou non), le compte Ads au nom du client, qui facture qui, et le risque de

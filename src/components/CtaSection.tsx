@@ -11,7 +11,9 @@ export default function CtaSection({
 }) {
   return (
     <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-dark via-navy-light to-navy px-6 py-12 text-center shadow-xl sm:px-12">
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-navy-light via-navy to-navy px-6 py-12 text-center shadow-xl sm:px-12">
+        <span aria-hidden="true" className="animate-drift-a pointer-events-none absolute -left-16 -top-16 h-64 w-64 rounded-full bg-brand/30 blur-[100px]" />
+        <span aria-hidden="true" className="animate-drift-b pointer-events-none absolute -bottom-20 -right-10 h-64 w-64 rounded-full bg-brand/25 blur-[110px]" />
         <Particles />
         <div className="relative mx-auto max-w-2xl">
           <h2 className="font-heading text-2xl font-extrabold text-white sm:text-3xl">{title}</h2>

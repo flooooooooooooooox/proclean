@@ -16,12 +16,12 @@ export default function OpengraphImage() {
           flexDirection: "column",
           justifyContent: "center",
           padding: "80px",
-          background: "linear-gradient(135deg, #0f3440 0%, #1a5061 55%, #128ba6 100%)",
+          background: "linear-gradient(135deg, #1c1917 0%, #3d3833 50%, #c9400f 100%)",
           color: "#ffffff",
           fontFamily: "sans-serif",
         }}
       >
-        <div style={{ display: "flex", fontSize: 26, letterSpacing: 6, color: "#7fdcf0" }}>
+        <div style={{ display: "flex", fontSize: 26, letterSpacing: 6, color: "#ff9a6b" }}>
           NETTOYAGE PROFESSIONNEL · CALVADOS
         </div>
         <div style={{ display: "flex", fontSize: 82, fontWeight: 800, marginTop: 24 }}>
@@ -38,7 +38,7 @@ export default function OpengraphImage() {
         >
           Bureaux, médical, commerces, industrie, fin de chantier — à Caen et dans tout le Calvados.
         </div>
-        <div style={{ display: "flex", fontSize: 30, marginTop: 44, color: "#7fdcf0" }}>
+        <div style={{ display: "flex", fontSize: 30, marginTop: 44, color: "#ff9a6b" }}>
           {siteConfig.phone} · Devis gratuit sous 24h
         </div>
       </div>

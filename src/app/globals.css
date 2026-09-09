@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f2f7f9;
-  --foreground: #122a33;
-  --color-cream: #f2f7f9;
-  --color-cream-alt: #dceaef;
-  --color-navy: #0f3440;
-  --color-navy-light: #1a5061;
-  --color-brand: #1fb6d6;
-  --color-brand-dark: #128ba6;
+  --background: #f7f6f4;
+  --foreground: #1c1917;
+  --color-cream: #f7f6f4;
+  --color-cream-alt: #eeebe6;
+  --color-navy: #24211e;
+  --color-navy-light: #3d3833;
+  --color-brand: #f4511e;
+  --color-brand-dark: #c9400f;
 }
 
 @theme inline {
@@ -26,8 +26,8 @@
 
 body {
   background:
-    radial-gradient(circle at 12% 0%, rgba(31, 182, 214, 0.08), transparent 45%),
-    radial-gradient(circle at 100% 20%, rgba(31, 182, 214, 0.06), transparent 40%),
+    radial-gradient(circle at 12% 0%, rgba(244, 81, 30, 0.08), transparent 45%),
+    radial-gradient(circle at 100% 20%, rgba(244, 81, 30, 0.06), transparent 40%),
     var(--background);
   color: var(--foreground);
 }
@@ -52,7 +52,7 @@ body {
 
   .btn:focus-visible {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(31, 182, 214, 0.45);
+    box-shadow: 0 0 0 3px rgba(244, 81, 30, 0.45);
   }
 
   .btn:active {
@@ -63,42 +63,42 @@ body {
   .btn-primary {
     color: #fff;
     background: linear-gradient(135deg, var(--color-brand), var(--color-brand-dark));
-    box-shadow: 0 6px 16px -4px rgba(18, 139, 166, 0.55);
+    box-shadow: 0 6px 16px -4px rgba(201, 64, 15, 0.55);
   }
 
   .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 24px -6px rgba(18, 139, 166, 0.65);
+    box-shadow: 0 12px 24px -6px rgba(201, 64, 15, 0.65);
     background: linear-gradient(135deg, var(--color-brand-dark), var(--color-brand-dark));
   }
 
   /* Reflet clair sur fond sombre (hero, CTA) */
   .btn-ghost {
     color: var(--color-cream);
-    border: 1px solid rgba(242, 247, 249, 0.3);
-    background: rgba(242, 247, 249, 0.04);
+    border: 1px solid rgba(247, 246, 244, 0.3);
+    background: rgba(247, 246, 244, 0.04);
     backdrop-filter: blur(4px);
   }
 
   .btn-ghost:hover {
     transform: translateY(-2px);
-    border-color: rgba(242, 247, 249, 0.6);
-    background: rgba(242, 247, 249, 0.12);
+    border-color: rgba(247, 246, 244, 0.6);
+    background: rgba(247, 246, 244, 0.12);
   }
 
   /* Contour sombre sur fond clair */
   .btn-outline {
     color: var(--color-navy);
-    border: 1px solid rgba(15, 52, 64, 0.2);
+    border: 1px solid rgba(36, 33, 30, 0.2);
     background: #fff;
-    box-shadow: 0 2px 8px -4px rgba(15, 52, 64, 0.25);
+    box-shadow: 0 2px 8px -4px rgba(36, 33, 30, 0.25);
   }
 
   .btn-outline:hover {
     transform: translateY(-2px);
     border-color: var(--color-brand);
     color: var(--color-brand-dark);
-    box-shadow: 0 8px 18px -6px rgba(15, 52, 64, 0.3);
+    box-shadow: 0 8px 18px -6px rgba(36, 33, 30, 0.3);
   }
 
   .btn-sm {
@@ -298,10 +298,10 @@ h1, h2, h3, .font-heading {
   background:
     repeating-linear-gradient(
       45deg,
-      rgba(15, 52, 64, 0.035),
-      rgba(15, 52, 64, 0.035) 12px,
-      rgba(15, 52, 64, 0.06) 12px,
-      rgba(15, 52, 64, 0.06) 24px
+      rgba(36, 33, 30, 0.035),
+      rgba(36, 33, 30, 0.035) 12px,
+      rgba(36, 33, 30, 0.06) 12px,
+      rgba(36, 33, 30, 0.06) 24px
     ),
-    #dfe6ea;
+    #e6e3de;
 }
